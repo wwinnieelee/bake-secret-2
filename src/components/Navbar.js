@@ -12,10 +12,9 @@ function Navbar() {
           src={LOGO}
           className="h-30 w-32 ml-1.5 -mb-1.0 transform translate-x-1 translate-y-6"
         />
-        <img
-          src={Love}
-          className="h-12 w-12 ml-1.5 transform translate-x-11 -translate-y-16"
-        />
+        <div className="animate-spin h-auto w-12 -mt-16 ml-12">
+          <img src={Love} />
+        </div>
       </div>
 
       {/* <div className="absolute bottom-10"> */}
